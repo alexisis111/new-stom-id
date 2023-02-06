@@ -1,10 +1,10 @@
-import styles from './App.module.scss';
+import s from './App.module.scss';
+import Nav from "./component/nav/nav";
 
 function App() {
-  return (
-    <div className={styles.bg}>Helloow</div>
-
-  );
+    return (
+        <Nav/>
+    );
 }
 
 
