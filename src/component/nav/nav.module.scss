@@ -5,11 +5,11 @@
   @apply container mx-auto flex justify-between flex-col md:flex-row items-center
 }
 .logo {
-   @apply h-12 w-16 mt-4 md:mt-0
+   @apply h-12 w-16 mt-4 md:mt-0 animate-bounce
  }
 .navBlock {
   @apply flex justify-around
 }
 .link {
-  @apply text-white p-4
+  @apply  text-white p-4 text-xl font-medium
 }

@@ -1,9 +1,12 @@
-import s from './App.module.scss';
 import Nav from "./component/nav/nav";
+import HomePage from "./component/homePage/homePage";
 
 function App() {
     return (
-        <Nav/>
+        <>
+            <Nav/>
+            <HomePage/>
+        </>
     );
 }
 
